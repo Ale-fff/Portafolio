@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Mi Portafolio - Desarrollador Web</title>
+        <title>Francisco Franco - Desarrollador Web</title>
         <meta name="description" content="Portafolio personal de desarrollo web" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -14,7 +14,7 @@ export default function Home() {
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
-              <h1 className="text-xl font-bold text-gray-900">Mi Portafolio</h1>
+              <h1 className="text-xl font-bold text-gray-900">Francisco Franco</h1>
             </div>
             <div className="flex items-center space-x-4">
               <a href="#about" className="text-gray-700 hover:text-gray-900">Sobre mí</a>
@@ -29,7 +29,7 @@ export default function Home() {
       <main className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl">
-            Hola, soy <span className="text-blue-600">[Tu Nombre]</span>
+            Hola, soy <span className="text-blue-600">[Francisco Alejandro Franco Santacruz]</span>
           </h1>
           <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
             Desarrollador web apasionado por crear experiencias digitales excepcionales.
@@ -135,7 +135,7 @@ export default function Home() {
       <footer className="bg-white border-t border-gray-200 mt-20">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <p className="text-gray-500">&copy; 2024 Mi Portafolio. Todos los derechos reservados.</p>
+            <p className="text-gray-500">&copy; 2026 Francisco Franco. Todos los derechos reservados.</p>
           </div>
         </div>
       </footer>

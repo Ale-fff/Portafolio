@@ -2,33 +2,32 @@
 
 Portafolio personal creado con Next.js y Tailwind CSS, optimizado para despliegue en Vercel.
 
-## 🚀 Tecnologías utilizadas
+## 🚀 Inicio rápido
 
-- **Next.js** - Framework de React para producción
-- **React** - Biblioteca para interfaces de usuario
-- **Tailwind CSS** - Framework CSS utilitario
-- **Vercel** - Plataforma de despliegue
+### Desarrollo local
 
-## 📋 Requisitos previos
+1. **Instalar dependencias:**
+   ```bash
+   npm install
+   ```
 
-- Node.js (v14+)
-- npm o yarn
+2. **Ejecutar servidor de desarrollo:**
+   ```bash
+   npm run dev
+   ```
 
-## 🛠️ Instalación y desarrollo local
+3. **Abrir en navegador:**
+   - Local: http://localhost:3000
+   - Network: http://192.168.1.162:3000 (desde otros dispositivos en la red)
 
-```bash
-# Instalar dependencias
-npm install
+El servidor se recarga automáticamente cuando guardas cambios en los archivos.
 
-# Ejecutar en modo desarrollo
-npm run dev
+## 🛠️ Scripts disponibles
 
-# Construir para producción
-npm run build
-
-# Ejecutar en modo producción
-npm start
-```
+- `npm run dev` - Servidor de desarrollo con hot reload
+- `npm run build` - Construir para producción
+- `npm run start` - Ejecutar en modo producción
+- `npm run lint` - Ejecutar linter de código
 
 ## 📦 Despliegue
 
