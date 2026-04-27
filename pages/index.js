@@ -65,8 +65,8 @@ export default function Home() {
             Hola, soy <span className="text-blue-600 dark:text-blue-400">Francisco Alejandro Franco Santacruz</span>
           </h1>
           <p className="mt-3 max-w-md mx-auto text-base text-slate-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl dark:text-slate-300">
-            Desarrollador web apasionado por crear experiencias digitales excepcionales.
-            Especializado en tecnologías modernas como React, Next.js y Node.js.
+            Desarrollador de software apasionado por crear experiencias digitales excepcionales.
+            Competencia en Java, JavaScript, C#, php y más.
           </p>
           <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
             <div className="rounded-full bg-gradient-to-r from-blue-600 to-cyan-500 p-px shadow-glow">
@@ -101,16 +101,16 @@ export default function Home() {
           <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                title: 'Proyecto 1',
-                description: 'Descripción breve del proyecto. Tecnologías utilizadas: React, Node.js, MongoDB.',
+                title: 'Serpiente',
+                description: 'Juego browser integrado. Tecnologías utilizadas: Java, Node.js, MongoDB.',
               },
               {
-                title: 'Proyecto 2',
-                description: 'Descripción breve del proyecto. Tecnologías utilizadas: Next.js, TypeScript, PostgreSQL.',
+                title: 'Inventario Digital',
+                description: 'Sistema de gestión de inventario. Tecnologías utilizadas: C#, ASP.NET, SQL Server.',
               },
               {
-                title: 'Proyecto 3',
-                description: 'Descripción breve del proyecto. Tecnologías utilizadas: Vue.js, Express, MySQL.',
+                title: 'Gestionador de Tareas',
+                description: 'Aplicación web de gestión. Tecnologías utilizadas: Vue.js, Express, MySQL.',
               },
             ].map((project) => (
               <div key={project.title} className="group overflow-hidden rounded-3xl border border-slate-200 bg-white p-6 shadow transition duration-300 ease-out hover:-translate-y-1 hover:shadow-glow dark:border-slate-800 dark:bg-slate-900">
